@@ -1,0 +1,56 @@
+[
+  {
+    "nombre": "Machu Picchu",
+    "ciudad": "Cusco",
+    "pais": "Perú",
+    "tipo": "Sitio Arqueológico"
+  },
+  {
+    "nombre": "Salar de Uyuni",
+    "ciudad": "Uyuni",
+    "pais": "Bolivia",
+    "tipo": "Atractivo Natural"
+  },
+  {
+    "nombre": "Cataratas del Iguazú",
+    "ciudad": "Foz do Iguaçu",
+    "pais": "Brasil",
+    "tipo": "Atractivo Natural"
+  },
+  {
+    "nombre": "Glaciar Perito Moreno",
+    "ciudad": "El Calafate",
+    "pais": "Argentina",
+    "tipo": "Atractivo Natural"
+  },
+  {
+    "nombre": "Chichén Itzá",
+    "ciudad": "Yucatán",
+    "pais": "México",
+    "tipo": "Sitio Arqueológico"
+  },
+  {
+    "nombre": "Cristo Redentor",
+    "ciudad": "Río de Janeiro",
+    "pais": "Brasil",
+    "tipo": "Monumento"
+  },
+  {
+    "nombre": "Torres del Paine",
+    "ciudad": "Magallanes",
+    "pais": "Chile",
+    "tipo": "Parque Nacional"
+  },
+  {
+    "nombre": "Isla de Pascua",
+    "ciudad": "Hanga Roa",
+    "pais": "Chile",
+    "tipo": "Sitio Arqueológico"
+  },
+  {
+    "nombre": "Ciudad Histórica de Salvador de Bahía",
+    "ciudad": "Salvador",
+    "pais": "Brasil",
+    "tipo": "Patrimonio de la Humanidad"
+  }
+]

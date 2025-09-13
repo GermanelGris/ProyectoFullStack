@@ -286,3 +286,147 @@ main {
     transform: translateY(-2px);
     box-shadow: 0 12px 30px #667eea4d;
 }
+
+.footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+.footer-logo i {
+    margin-right: 8px;
+    font-size: 1.8rem;
+}
+
+.footer-section p {
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    display: flex;
+   
+
+}
+
+.footer-section h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #667eea;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #667eea;
+    transform: translateY(-2px);
+}
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #667eea;
+}
+.sugerencias-lista {
+    /* Estilos base para la lista de sugerencias */
+    position: absolute; /* Para que la lista se muestre encima de otros elementos */
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-height: 200px; /* Limita la altura de la lista para que sea desplazable */
+    overflow-y: auto; /* Agrega una barra de desplazamiento si hay muchos resultados */
+    z-index: 10; /* Asegura que la lista esté por encima de otros elementos */
+    width: 100%; /* La lista tiene el mismo ancho que el input */
+    top: 100%; /* La lista se posiciona debajo del input */
+    left: 0;
+}
+
+.sugerencias-lista li {
+    /* Estilos para cada elemento de la lista (cada sugerencia) */
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--c-texto);
+    border-bottom: 1px solid #eee; /* Separador entre elementos */
+    transition: background-color 0.2s ease;
+}
+
+.sugerencias-lista li:hover {
+    /* Estilo al pasar el mouse por encima */
+    background-color: #f0f0f0;
+}
+
+/* Estilo para el contenedor del input */
+.input-field {
+    /* Este estilo es necesario para que la lista de sugerencias se posicione correctamente */
+    position: relative;
+}
